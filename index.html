@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/normilize.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,7 +17,7 @@
 
 <body>
 
-    <header>
+    <header class="header">
 
         <nav>
 
@@ -47,7 +46,7 @@
     </header>
 
     <section class="hero">
-        <svg class="icon icon-decore-hero">
+        <svg class="icon hero__icon-decore-hero">
             <use xlink:href="assets/svg/svg-sprites.svg#icon-decore-hero"></use>
         </svg>
         <img src="assets/svg/purple-eclipse-header.svg" alt="purple-eclipse-header" class="hero__purple-eclipse">
@@ -60,18 +59,18 @@
                     listening. Park gate sell they west hard for the.</p>
                 <div class="hero__play-items">
                     <a class="hero__find-link">Find out more</a>
-                    <img src="assets/svg/polygon.svg" alt="polygon" class="polygon">
+                    <img src="assets/svg/polygon.svg" alt="polygon" class="hero__polygon">
                     <p>Play Demo</p>
                 </div>
-                <img src="assets/svg/decore-heading.svg" alt="decore-heading" class="decore-heading">
+                <img src="assets/svg/decore-heading.svg" alt="decore-heading" class="hero__decore-heading">
             </figcaption>
-            <img src="assets/png/hero-image.png" alt="hero-image" class="hero-img">
+            <img src="assets/png/hero-image.png" alt="hero-image" class="hero__img">
         </figure>
-
     </section>
+
     <section class="services">
         <div class="services__wrapper">
-            <p class="heading-description">Category</p>
+            <p class="heading-description services__heading-description">Category</p>
             <h2 class="services__heading-2_top">We Offer Best Services</h2>
             <ul>
                 <li>
@@ -86,7 +85,7 @@
                     </svg>
                 </li>
                 <li>
-                    <svg class="icon icon-best-flights">
+                    <svg class="icon services__icon-best-flights">
                         <use xlink:href="assets/svg/svg-sprites.svg#icon-best-flights"></use>
                     </svg>
                     <div class="services__item-flights">
@@ -116,7 +115,7 @@
                     </svg>
                 </li>
             </ul>
-            <svg class="icon icon-pluses-top">
+            <svg class="icon services__icon-pluses-top">
                 <use xlink:href="assets/svg/svg-sprites.svg#icon-pluses-top"></use>
             </svg>
         </div>
@@ -127,7 +126,7 @@
             <h2>Top Destinations</h2>
             <ul>
                 <li>
-                    <div class="top-selling__pictures top-selling__picture-background-1">
+                    <div class="top-selling__pictures top-selling__pictures-background-1">
                         <div class="top-selling__pictures_content">
                             <div class="top-selling__pictures_headings">
                                 <h4>Rome, Italy</h4>
@@ -141,7 +140,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="top-selling__pictures top-selling__picture-background-2">
+                    <div class="top-selling__pictures top-selling__pictures-background-2">
                         <div class="top-selling__pictures_content">
                             <div class="top-selling__pictures_headings">
                                 <h4>London, UK</h4>
@@ -155,7 +154,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="top-selling__pictures top-selling__picture-background-3">
+                    <div class="top-selling__pictures top-selling__pictures-background-3">
                         <div class="top-selling__pictures_content">
                             <div class="top-selling__pictures_headings">
                                 <h4>Full Europe</h4>
@@ -205,10 +204,10 @@
                     <span class="book-steps__new-price">1999$</span>
                 </p>
                 <ul class="book-steps__list_icons">
-                    <li><svg class="book-steps__icon-mid icon-leaf-steps">
+                    <li><svg class="book-steps__icon-mid book-steps__icon-leaf-steps">
                             <use xlink:href="assets/svg/svg-sprites.svg#icon-leaf-steps"></use>
                         </svg></li>
-                    <li><svg class="book-steps__icon-mid icon-map-steps">
+                    <li><svg class="book-steps__icon-mid book-steps__icon-map-steps">
                             <use xlink:href="assets/svg/svg-sprites.svg#icon-map-steps"></use>
                         </svg></li>
                     <li><svg class="book-steps__icon-mid icon-location-steps">
@@ -296,10 +295,10 @@
                 interesting offers about Cobham
             </h3>
             <form action="#" class="subscribe__form">
-                <div class="subscribe__form_email-container"><input class="form__email" type="email" id="email"
+                <div class="subscribe__form_email-container"><input class="subscribe__form__email" type="email" id="email"
                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="30" placeholder="Your email" required />
                 </div>
-                <button class="form__button" type="submit" id="email-button">Subscribe</button>
+                <button class="subscribe__form__button" type="submit" id="email-button">Subscribe</button>
             </form>
             <div class="subscribe__eclipse-1"></div>
             <div class="subscribe__eclipse-2"></div>
@@ -307,7 +306,7 @@
         <div class="subscribe__pluses-decor"></div>
         <div class="subscribe__telegram-decor"></div>
     </section>
-    <footer>
+    <footer class="footer">
         <ul class="footer__wrapper">
             <li>
                 <ul class="footer__list-1">
